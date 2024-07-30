@@ -1,0 +1,58 @@
+/*ESTILO GERAL*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    height: 100vh;
+    
+}
+
+.interface{
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #7d7d7d;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.05);
+
+}
+div.titulo h1{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+div.titulo h1 span{
+    color: #ff5e00;
+}
+/*ESTILO DA GALERIA*/
+main{
+    text-align: center;
+    padding: 30px;
+}
